@@ -27,6 +27,14 @@ public class SmallestElement {
         for (int i = 0; i < array.length; i++) {
             array[i] = scanner.nextInt();
         }
+ Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter Elements in array :");
+        int array[] =new int[5];
+
+        for (int i = 0; i < array.length; i++) {
+            array[i] = scanner.nextInt();
+        }
 
         int result = SmallestElement.smallestElement(array);
         System.out.println("smallest number is " + result);
